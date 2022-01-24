@@ -12,6 +12,7 @@ namespace P13_ForEncadeado
         {
             Console.WriteLine("Executando projeto 13");
 
+            // Piramide de '*'
             for (int contadorLinha = 0; contadorLinha < 10; contadorLinha++)
             {
                 for (int contadorColuna = 0; contadorColuna < 10; contadorColuna++)
@@ -36,7 +37,14 @@ namespace P13_ForEncadeado
                 Console.WriteLine();
             }
 
-
+            // Tabuada até o 10
+            for (int contador = 1; contador <= 10; contador++)
+            {
+                for (int contador2 = 0; contador2 <= 10; contador2++)
+                {
+                    Console.WriteLine(contador + " x " + contador2 + " = " + contador * contador2);
+                }
+            }
 
             Console.ReadLine();
         }
